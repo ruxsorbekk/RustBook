@@ -47,7 +47,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe7b2190-77fc-4b79-ac46-68001b2f0ed1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flake.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flake.nix" beforeDir="false" afterPath="$PROJECT_DIR$/flake.nix" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +84,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -102,7 +104,7 @@
   }
 }]]></component>
   <component name="RustProjectSettings">
-    <option name="toolchainHomeDirectory" value="$PROJECT_DIR$/../.cargo/bin" />
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -113,6 +115,7 @@
       <updated>1766915069666</updated>
       <workItem from="1766915072222" duration="3273000" />
       <workItem from="1766933396493" duration="305000" />
+      <workItem from="1766936777869" duration="352000" />
     </task>
     <servers />
   </component>
