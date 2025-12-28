@@ -66,21 +66,14 @@
 // }
 
 // Invalid Array Element Access
+
 use std::io;
-fn main(){
+
+fn main() {
     let a = [1, 2, 3, 4, 5];
-    println!("Please enter an array index. ");
-    let mut index = String::new();
+    for element in a{
+        println!("{}", element * element);
+    }
 
-    io::stdin()
-        .read_line(&mut index)
-        .expect("Failed to read line");
 
-    let index: usize = index
-        .trim()
-        .parse()
-        .expect("Entered index is not a number");
-
-    let element = a[index];
-    println!("The value of {index}th element is {element}");
 }
