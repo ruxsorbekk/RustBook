@@ -27,7 +27,7 @@ struct ImportantExcerpt<'a>{
 
 fn main() {
     let novel = String::from("Call me. some years ago...");
-    let first_sentence = novel.split('.).next().expect("Could not find");
+    let first_sentence = novel.split('.').next().expect("Could not find");
     let i = ImportantExcerpt {
         part: first_sentence,
     };
