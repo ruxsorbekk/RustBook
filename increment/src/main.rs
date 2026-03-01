@@ -34,7 +34,6 @@ fn build_ui(app: &Application) {
     
     let number = Rc::new(Cell::new(0));
     
-    let number_copy = number.clone();
     button_increase.connect_clicked(clone!(
         #[weak]
         number,
